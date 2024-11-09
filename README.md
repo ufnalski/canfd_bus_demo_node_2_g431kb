@@ -1,5 +1,5 @@
 # CAN FD demo node 2 (STM32G431KB)
-Node 2. [Node 1](https://github.com/ufnalski/can_bus_demo_node_1_g431kb).
+Node 2. [Node 1](https://github.com/ufnalski/canfd_bus_demo_node_1_g431kb).
 
 Both nodes are identical from the hardware point of view. They differ in software/firmware. One of the nodes periodically sends a message, the other one receives it. The simplest possible configuration. Be inspired by the [CAN 2.0B demo](https://github.com/ufnalski/can_bus_demo_node_1_l432kc) to experiment with some more "ambitious" filter configurations.
 
