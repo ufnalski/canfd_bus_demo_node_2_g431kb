@@ -74,6 +74,8 @@ void MX_FDCAN1_Init(void)
 		/* Filter configuration Error */
 		Error_Handler();
 	}
+	HAL_FDCAN_ConfigGlobalFilter(&hfdcan1, FDCAN_REJECT, FDCAN_REJECT,
+			FDCAN_REJECT_REMOTE, FDCAN_REJECT_REMOTE);
 	/* USER CODE END FDCAN1_Init 2 */
 
 }
